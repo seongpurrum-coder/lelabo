@@ -1,395 +1,548 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tourzy</title>
+  <title>Le Labo</title>
   <!--favicon-->
-  <link rel="icon" href="img/favicon.png">
+  <link rel="icon" href="img/favicon.ico">
   <!--font-->
   <link rel="stylesheet" href="css/font.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
   <!--css-->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-  <link rel="stylesheet" href="css/common.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.circular-carousel.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/common.css">
+
   <!--js-->
   <script defer src="js/jquery-3.7.1.min.js"></script>
   <script defer src="js/swiper-bundle.min.js"></script>
-  <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script defer src="js/jquery.circular-carousel.js"></script>
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script defer src="js/common.js"></script>
 </head>
- <body>
+
+<body>
   <div id="wrap">
     <form>
+      <div id="top-notice">
+        <p>르 라보 공식 온라인 스토어 12월, 1월 연휴 기간 배송지연 안내 <br>( 자세히 보기)</p>
+      </div><!--#top-notice-->
+
       <header>
         <div class="inner">
-          <h1>
-            <a href="index.html">
-              <img src="img/logo_g.png" alt="로고이미지">
-            </a>
-          </h1>
-          
           <nav>
             <ul class="gnb">
-              <li><a href="sub/about.html">투어지</a></li>
-              <li><a href="#">서비스</a></li>
-              <li><a href="#">소식</a>
-              </li>
-              <li><a href="sub/partner.html">파트너사 모집</a>
-              </li>
-              <li class="download">
-                <a href="#">
-                  앱 다운로드
-                </a>
-              </li>
-            </ul><!--.gnb-->
-
-            <div class="mgnb-ham">
-              <img src="img/icon_ham.png" alt="이미지">
-            </div>
-
-            <div class="mgnb-dim">
-            </div><!--.mgnb-dim-->
-            <div class="mgnb-wrap">
-              <ul class="mgnb">
               <li>
-                <a href="sub/about.html">
-                  <p>투어지</p>
-                </a>
+                <a href="#">ABOUT US</a>
+                <ul class="depth2 d1">
+                  <div class="inner">
+                    <li>
+                      <span><a href="sub/about.html">르라보 소개</a></span>
+                      <a href="sub/about.html">
+                        <img src="img/depth2-1.png" alt="사진">
+                      </a>
+                    </li>
+                    <li>
+                      <span>OVERHEARD LE LABO</span>
+                      <a href="#">
+                        <img src="img/depth2-2.png" alt="사진">
+                      </a>
+                    </li>
+                    <li>
+                      <span>북촌 한옥</span>
+                      <a href="#">
+                        <img src="img/depth2-3.png" alt="사진">
+                      </a>
+                    </li>
+                  </div><!--.inner-->
+                </ul>
               </li>
-              <li><a href="#">
-                <p>서비스</p>
-              </a>
+              <li>
+                <a href="#">FRAGRANCES</a>
+                <ul class="depth2 d2">
+                  <div class="inner">
+                    <li>
+                      <span>클래식 컬렉션</span>
+                      <ul class="classic">
+                        <li>
+                          <p><a href="sub/another13.html">ANOTHER 13 <span>(어나더 13)</span></a></p>
+                          <p><a href="#">SANTAL 33 <span>(상탈 33)</span></a></p>
+                          <p><a href="#">THE NOIR 29 <span>(떼 누아 29)</span></a></p>
+                          <p><a href="#">THE MATChA 26 <span>(떼 마차 26)</span></a></p>
+                          <p><a href="#">BERGAMOTE 22 <span>(베르가못 22)</span></a></p>
+                          <p><a href="#">BAIE 19 <span>(베이 19)</span></a></p>
+                          <p><a href="#">LYS 41 <span>(리스 41)</span></a></p>
+                          <p><a href="#">AMBRETTE 9 <span>(암브레트 9)</span></a></p>
+                          <p><a href="#">EUCALYPTUS 20 <span>(유칼립투스 20)</span></a></p>
+                          <p><a href="#">ROSE 31 <span>(로즈 31)</span></a></p>
+                        </li>
+                        <li>
+                          <p><a href="#">LAVANDE 31 <span>(라방드 31)</span></a></p>
+                          <p><a href="#">NEROLI 36 <span>(네롤리 36)</span></a></p>
+                          <p><a href="#">FLEUR D'ORANGER 27 <span>(플레르 도란줴 27)</span></a></p>
+                          <p><a href="#">JASMIN 17 <span>(자스민 17)</span></a></p>
+                          <p><a href="#">LABDANUM 18 <span>(라다넘 18)</span></a></p>
+                          <p><a href="#">PATCHOULI 24 <span>(패츌리 24)</span></a></p>
+                          <p><a href="#">YLANG 49 <span>(일랑 49)</span></a></p>
+                          <p><a href="#">TONKA 25 <span>(통카 25)</span></a></p>
+                          <p><a href="#">VETIVER 46 <span>(베티버 46)</span></a></p>
+                        </li>
+                      </ul><!--.classic-->
+                    </li>
+                    <li>
+                      <span>카테고리</span>
+                      <p><a href="#">오드퍼품</a></p>
+                      <p><a href="#">트래블 튜브</a></p>
+                      <p><a href="#">리퀴드 밤</a></p>
+                    </li>
+                    <li>
+                      <div class="depth2-div">
+                        <img src="img/fragrance.jpg" class="depth2-img">
+                      </div>
+                      <p class="dt">EUCALYPTUS 20</p>
+                    </li>
+                  </div><!--.inner-->
+                </ul>
+              </li><!--.fragrances-->
+              <li>
+                <a href="#">HOME - BODY</a>
+                <ul class="depth2 d3">
+                  <div class="inner">
+                    <li>
+                      <span>홈</span>
+                      <p><a href="#">클래식 캔들</a></p>
+                      <p><a href="#">홈 프래그런스</a></p>
+                      <p><a href="#">콘크리트 캔들</a></p>
+                      <p><a href="#">디퓨저</a></p>
+                      <p><a href="#">보티브</a></p>
+                      <p><a href="#">라이프 스타일</a></p>
+                    </li>
+                    <li>
+                      <span>바디</span>
+                      <ul class="body">
+                        <li>
+                          <p><a href="#">핸드크림</a></p>
+                          <p><a href="#">핸드 솝</a></p>
+                          <p><a href="#">핸드 로션</a></p>
+                          <p><a href="#">핸드 젤</a></p>
+                          <p><a href="#">핸드 포마드</a></p>
+                          <p><a href="#">샤워 젤</a></p>
+                          <p><a href="#">샤월 오일</a></p>
+                        </li>
+                        <li>
+                          <p><a href="#">바디 크림</a></p>
+                          <p><a href="#">바디 스크럽</a></p>
+                          <p><a href="#">바디 로션</a></p>
+                          <p><a href="#">바디 오일</a></p>
+                          <p><a href="#">바디 바 솝</a></p>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span>헤어</span>
+                      <p><a href="#">샴푸</a></p>
+                      <p><a href="#">컨디셔너</a></p>
+                      <p><a href="#">헤어 마스크</a></p>
+                      <p><a href="#">스크럽 샴푸</a></p>
+                    </li>
+                    <li>
+                      <span>페이스</span>
+                      <p><a href="#">페이스 로션</a></p>
+                      <p><a href="#">페이스 클렌징 오일</a></p>
+                      <p><a href="#">립밤</a></p>
+                      <p><a href="#">페이스 스크럽</a></p>
+                    </li>
+                    <li>
+                      <span>그루밍</span>
+                      <p><a href="#">그루밍 기프트 세트</a></p>
+                      <p><a href="#">올인원 클렌저</a></p>
+                      <p><a href="#">멀티 퍼포즈 밤</a></p>
+                      <p><a href="#">데오드란트</a></p>
+                      <p><a href="#">쉐이빙 크림</a></p>
+                      <p><a href="#">애프터 쉐이브 밤</a></p>
+                      <p><a href="#">페이스 로션</a></p>
+                      <p><a href="#">비어드 오일</a></p>
+                      <p><a href="#">스타일링 콘크리트</a></p>
+                    </li>
+                    <li class="depth2-p">
+                      <div class="depth2-div">
+                        <img src="img/body.png" alt="향수" class="depth2-img">
+                      </div>
+                      <p class="dt">피부와 마주하는 과정</p>
+                    </li>
+                  </div><!--.inner-->
+                </ul><!--.d3-->
               </li>
-              <li><a href="#">
-                <p>소식</p>
-              </a>
+              <li>
+                <a href="#">GIFT</a>
+                <ul class="depth2 d4">
+                  <div class="inner">
+                    <li>
+                      <span>기프트 컬렉션</span>
+                      <p><a href="#">맞춤형 기프트</a></p>
+                      <p><a href="#">기프트 세트</a></p>
+                      <p><a href="#">트래블</a></p>
+                      <p><a href="#"></a></p>
+                    </li>
+                    <li>
+                      <div class="depth2-div">
+                        <img src="img/gift.jpg" alt="향수" class="depth2-img">
+                      </div>
+                      <p class="dt">향을 전하는 방식</p>
+                    </li>
+                  </div><!--.inner-->
+                </ul>
               </li>
-              <li><a href="sub/partner.html">파트너사 모집</a>
+              <li>
+                <a href="#">DISCOVERY</a>
+                <ul class="depth2 d5">
+                  <div class="inner">
+                    <li>
+                      <span>디스커버리 세트</span>
+                      <p><a href="#">클래식 컬렉션</a></p>
+                      <p><a href="#">퍼퓨밍 핸드 크림 디스커버리 세트</a></p>
+                      <p><a href="#">바 솝 디스커버리 세트</a></p>
+                    </li>
+                    <li>
+                      <div class="depth2-div">
+                        <img src="img/discovery.png" alt="향수" class="depth2-img">
+                      </div>
+                      <p class="dt">향을 찾는 기록</p>
+                    </li>
+                  </div><!--.inner-->
+                </ul>
               </li>
-              <li class="mdownload">
-                <a href="#">
-                  앱 다운로드
-                </a>
-              </li>
-            </ul><!--.gnb-->
-            <div class="mgnb-close">
-              <img src="img/mgnb_close.png" alt="이미지">
-            </div>
-            </div><!--.mgnb-wrap-->
+            </ul>
           </nav>
+
+          <h1>
+            <a href="index.html">
+              <img src="img/logo_b.png" alt="로고">
+            </a>
+          </h1>
+
+          <div class="util">
+            <ul>
+              <li><img src="img/icon_login.svg" alt="로그인"></li>
+              <li class="search"><img src="img/icon_search.svg" alt="돋보기"></li>
+              <li><img src="img/icon_cart.svg" alt="카트"></li>
+              <li><img src="img/icon_ham.svg" alt="햄"></li>
+            </ul>
+          </div><!--.util-->
         </div><!--.inner-->
 
-      </header>
-      
-      <main>
-        <section id="main-visual">
-          <video src="img/mv.mp4" autoplay muted loop playsinline></video>
-        </section><!--#main-visual-->
-
-        <section id="section01" data-aos="fade-up" data-aos-duration="1000">
-          <div class="section01-txt">
-            <p>저희 <span>투어지</span>는,</p>
-            &nbsp;
-            <p>투어지는 기술 발전과 자원 남용으로 심화되는 환경 오염 속에서,<br>지속 가능한 여행을 고민하는 사람들의 마음에서 출발했습니다.<br><div class="none">생각하면서도 부담 없이 도시를 이동할 수 있는 방법을 고민하였고,<br> 그 해답으로 투어지를 만들었습니다.</p></div>
-            &nbsp;
-            <p>투어지는 <span>이동</span>과 <span>여행</span>, 두 가지 의미를 결합하여<br>
-            일상의 짧은 이동부터 지속 가능한 여행의 가능성 까지 담아냅니다.</p>
-          </div><!--.section01-txt-->
-
-          <div class="section01-img">
-            <img src="img/section01.png" alt="이미지" class="section01-img">
-          </div>
-        </section><!--#section01-->
-
-        <section id="section02">
+        <div class="search-wrap">
           <div class="inner">
-            <div class="common-tit">
-              <span>하나의 앱, 두 가지 이동</span>
-              <h2><span>자전거도 자동차</span>도<br>투어지로!</h2>
-              <p>투어지 앱 하나로 자전거, 자동차 모두 이용가능 해요.</p>
-            </div><!--.common-tit-->
-          </div><!--.inner-->
-          <img src="img/section02.png" alt="이미지">
-        </section><!--#section02-->
-
-        <section id="section03">
-          <div class="inner">
-            <div class="common-tit">
-              <span>길 안내 기능</span>
-              <h2><span>잘 모르는 길</span>이여도, 괜찮아요!</h2>
-              <p>현재 위치와 이동 거리에 맞춰<br>
-                최적의 이동 경로를 안내해요.</p>
-            </div><!--.common-tit-->
-          </div><!--.inner-->
-        </section><!--#section03-->
-
-        <section id="section04">       
-          <div class="section04_inner">  
-            <div class="common-tit">
-              <span>투어지 앱</span>
-              <h2><span>편리</span>하고,<br><span>간편</span>해요!</h2>
-              <p>앱 하나로 빠른 이동을 시작해요.</p>
-            </div><!--.common-tit-->
-
-            <div class="img_frame"></div>
-            <!-- Swiper -->
-            <div class="swiper guide">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide s1">     
-                  <div class="swiper-box">
-                    <div class="left_frame">
-                      <img src="img/section04-1.png" alt="이미지">
-                    </div>
-                    <div class="section04-txt">
-                      <ul class="flex">
-                        <li class="num">1</li>
-                        <li>가입하기</li>
-                      </ul>
-                      <p>간단한 회원가입으로<br>바로 시작해요.</p>
-                    </div>
-                  </div><!--.swiper-box-->
-                </div><!--.swiper-slide-->                
-                <div class="swiper-slide s2">   
-                  <div class="swiper-box">
-                    <div class="left_frame">
-                      <img src="img/section04-2.png" alt="이미지">
-                    </div>
-                    <div class="section04-txt">
-                      <ul class="flex">
-                        <li class="num">2</li>
-                        <li>찾기</li>
-                      </ul>
-                      <p>지도에서 가까운<br>자전거·차량을 확인해요.</p>
-                    </div>
-                  </div><!--.swiper-box-->   
-                </div><!--.swiper-slide-->
-                <div class="swiper-slide s3">
-                  <div class="swiper-box">
-                    <div class="left_frame">
-                      <img src="img/section04-3.png" alt="이미지">
-                    </div>
-                    <div class="section04-txt">
-                      <ul class="flex">
-                        <li class="num">3</li>
-                        <li>이용하기</li>
-                      </ul>
-                      <p>앱으로 잠금 해제하고<br>바로 출발 !</p>
-                    </div>
-                  </div><!--.swiper-box-->   
-                </div><!--.swiper-slide-->
-
-                <div class="swiper-slide s4">
-                  <div class="swiper-box">
-                    <div class="left_frame">
-                      <img src="img/section04-4.png" alt="이미지">
-                    </div>
-                    <div class="section04-txt">
-                      <ul class="flex">
-                            <li class="num">4</li>
-                            <li>반납하기</li>
-                      </ul>
-                      <p>지정된 장소에 주차하고<br>반납 완료 !</p>
-                    </div>
-                  </div><!--.swiper-box-->  
-                </div><!--.swiper-slide-->
+            <fieldset>
+              <legend>검색영역</legend>
+              <div>
+                <input type="text" title="검색어 입력" placeholder="검색어를 입력하세요">
+                <button type="button" class="btn_search">검색창</button>
+                <button type="button" class="search-close">검색창닫기</button>
               </div>
+            </fieldset>
+          </div><!--.inner-->
+          <div class="search-best">
+            <div class="inner">
+              <ul>
+                <li>
+                  <span>인기 검색어</span>
+                  <p><a href="#">기프트</a></p>
+                  <p><a href="#">시프레 21</a></p>
+                  <p><a href="#">핸드 로션</a></p>
+                  <p><a href="#">스킨케어</a></p>
+                </li>
+                <li>
+                  <span>서비스</span>
+                  <p><a href="#">매장 찾기</a></p>
+                  <p><a href="#">배송 조회</a></p>
+                </li>
+                <li>
+                  <span>신제품</span>
+                  <p>
+                    <img src="img/perfume.png" alt="시프레21">
+                    <a href="#">시프레 21 클래식 캔들</a>
+                  </p>
+                </li>
+              </ul>
             </div>
-          </div>  
-        </section><!--#section04-->
+          </div><!--.search-best-->
+        </div><!--.search-wrap-->
+      </header>
 
-        <section id="section05">
-          <div class="inner">
-            <div class="section05-left">
-              <div class="common-tit">
-                <span class="section05sp">안전이 최우선인</span>
-                <h2><span>투어지</span>와<br><span>안전 운행</span>해요!</h2>
-                <p>안전한 이용을 위해<br>기본 수칙을 꼭 지켜주세요.</p>
-              </div><!--.common-tit-->
-              <img src="img/section05-robot.png" alt="로봇이미지" 
-              class="section05-robot">
-              <div class="circle"></div>
-            </div><!--.section05-left-->
-            
-            <div class="section05-right">
-              <div class="section05-right-box">
-                <ul>
-                  <li>
-                    <img src="img/check_icon.svg" alt="체크이미지">
-                    <p><span class="none5">브레이크, 타이어, 체인 등 </span>기본 상태를 출발 전에 꼭 확인해주세요.</p>
-                  </li>
-                  <li>
-                    <img src="img/check_icon.svg" alt="체크이미지">
-                    <p>안전한 이동을 위해 <span class="none5">자전거 주행 시에는 </span>반드시 안전모를 착용해주세요.</p>
-                  </li>
-                  <li>
-                    <img src="img/check_icon.svg" alt="체크이미지">
-                    <p>음주 후 이용은 금지에요.<span class="none5"> 본인과 타인의 안전을 위협할 수 있어요.</span></p>
-                  </li>
-                  <li>
-                    <img src="img/check_icon.svg" alt="체크이미지">
-                    <p>자전거는 1인 이용이 원칙이에요.<span class="none5"> 동승 시 법적 책임이 발생할 수 있어요.</span></p>
-                  </li>
-                </ul>
-              </div><!--.section05-right-box-->
-            </div><!--.section05-right-->
-          </div><!--.inner-->
-        </section><!--#section05-->
 
-        <section id="section06" data-aos="fade-up" data-aos-duration="1000">
-          <div class="inner">
-            <div class="section06-left">
-              <div class="common-tit">
-                <span>서비스 지역</span>
-                <h2><span>투어지</span>는<br>여기서 <span>만날 수</span> 있어요!</h2>
-                <p>앱에서 더 자세히 볼 수 있어요.</p>
-              </div><!--.common-tit-->
-              <div class="car-bicycle">
-                <div class="car">
-                  <img src="img/section06-car.png" alt="자동차 이미지">
-                  <p>전기<br> 자동차</p>
-                  <img src="img/icon_site.svg" alt="위치 이미지">
-                </div>
-                <div class="bicycle">
-                  <img src="img/section06-bicyle.png" alt="자전거 이미지">
-                  <p>전기<br> 자전거</p>
-                  <img src="img/icon_site.svg" alt="위치 이미지">
-                </div>
+
+
+      <div id="main-visual">
+        <video src="img/main-visual.mp4" autoplay muted loop playsinline></video>
+      </div><!--#main-visual-->
+
+      <main>
+        <div id="section1">
+          <ul>
+            <li>
+              <img src="img/section1-img.png" alt="르라보 매장">
+            </li>
+            <li>
+              <div class="section-txt">
+                <h2>About the Lab</h2>
+                <h3>르라보 소개</h3>
+                <p>손으로 만들고, 시간을 거칩니다.<br>르라보는 향을 빠르게 완성되는 상품이 아닌, 천천히 경험되는 하나의 과정으로 생각합니다.<br>각각의 향은 서둘러 만들어지지 않으며, 선택된
+                  순간에 손을 거쳐 비로소 완성됩니다.<br>그 안에는 공식보다 의도가, 속도보다 기다림이 담겨 있습니다.<br>르라보의 향은 그렇게, 경험으로 남습니다.</p>
+                <div class="btn_explore"><a href="#">explore</a></div>
               </div>
-            </div><!--.section06-left-->
-
-            <div class="section06-right">
-              <div class="car-site">
-                <img src="img/section06-car-site.png" alt="사이트이미지">
-              </div>
-              <div class="bicycle-site">
-                <img src="img/section06-bicycle-site.png" alt="사이트이미지">
-              </div>
-            </div><!--.section06-right-->
-          </div><!--.inner-->
-        </section><!--#section06-->
-
-        <section id="partner">
-          <ul class="partner-list">
-            <li><img src="img/partner1.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner2.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner3.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner4.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner5.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner6.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner7.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner8.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner9.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner10.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner11.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner12.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner1.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner2.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner3.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner4.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner5.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner6.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner7.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner8.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner9.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner10.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner11.png" alt="협력사 이미지"></li>
-            <li><img src="img/partner12.png" alt="협력사 이미지"></li>
+            </li>
           </ul>
-        </section><!--#partner-->
+        </div><!--#section1-->
 
-        <section id="partnership">
-          <p>투어지와 함께 하고 싶다면</p>
-        <div class="partnership-btn">
-          <a href="sub/partner.html">제휴문의</a>
-        </div>
-        <img src="img/partnership-robot.png" alt="이미지">
-        </section><!--#partnership-->
+        <div id="section2">
+          <div class="inner">
+            <div class="section-txt">
+              <h2>Most Often Chosen</h2>
+              <h3>다시 찾게 되는 향</h3>
+              <p>시간을 거치며 자연스럽게 선택된 향입니다.</p>
+            </div><!--.section-txt-->
+
+            <div class="section2-box">
+              <ul class="carousel">
+                <li class="item active">
+                  <div class="img"><img src="img/section2-another13.jpg" alt="ANOTHER 13"></div>
+                  <div class="txt">
+                    <h4>ANOTHER 13</h4>
+                    <p>Ambroxan / Iso E Super / Musk </p>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="img"><img src="img/section2-santal33.jpg" alt="SANTAL 33"></div>
+                  <div class="txt">
+                    <h4>SANTAL 33</h4>
+                    <p>Sandalwood / Cardamom / Cedarwood</p>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="img"><img src="img/section2-rose31.jpg" alt="ROSE 31"></div>
+                  <div class="txt">
+                    <h4>ROSE 31</h4>
+                    <p>Rose Absolute / Cumin / Cedarwood</p>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="img"><img src="img/section2-bergamote22.jpg" alt="BERGAMOTE 22"></div>
+                  <div class="txt">
+                    <h4>BERGAMOTE 22</h4>
+                    <p>Bergamot / Grapefruit / Vetiver</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="controls">
+                <a href="#" class="previous">Previous</a>
+                <a href="#" class="next">Next</a>
+              </div><!--.controls-->
+            </div><!--.section2-box-->
+
+
+
+
+            <div class="btn_explore"><a href="#">explore</a></div>
+          </div><!--.inner-->
+        </div><!--#section2-->
+
+        <div id="section3">
+          <div class="section3-bg">
+            <div class="section-txt">
+              <h2>The Scented Journey</h2>
+              <h3>향을 찾는 기록</h3>
+              <p>향은 정해진 순서로 시작되지 않습니다.<br>각자의 감각이 이끄는 방향에서 자연스럽게 선택됩니다</p>
+              <div class="btn_explore"><a href="#">explore</a></div>
+            </div>
+          </div>
+        </div><!--#section3-->
+
+        <div id="section4">
+          <div class="section-txt">
+            <h2>Products by Scent</h2>
+            <h3>같은 향, 다른 경험</h3>
+            <p>같은 향도 동일한 방식으로 받아들여지지 않습니다. <br>그래서 제품은 단일한 형태로 정의되지 않습니다.</p>
+          </div>
+
+          <ul>
+            <li>
+              <img src="img/section4-1.jpg" alt="이미지" class="section4-up">
+              <img src="img/section4-1-2.jpg" alt="이미지">
+              <div class="section4-tit"><a href="#">FRAGRANCE</a></div>
+            </li>
+            <li>
+              <img src="img/section4-2.jpg" alt="이미지" class="section4-up">
+              <img src="img/section4-2-2.jpg" alt="이미지">
+              <div class="section4-tit"><a href="#">HOME</a></div>
+            </li>
+            <li>
+              <img src="img/section4-3.jpg" alt="이미지" class="section4-up">
+              <img src="img/section4-3-2.jpg" alt="이미지">
+              <div class="section4-tit"><a href="#">BODY</a></div>
+            </li>
+            <li>
+              <img src="img/section4-4.jpg" alt="이미지" class="section4-up">
+              <img src="img/section4-4-2.jpg" alt="이미지">
+              <div class="section4-tit"><a href="#">GROOMING</a></div>
+            </li>
+          </ul>
+        </div><!--#section4-->
+
+        <div id="section5">
+          <div class="inner">
+            <ul>
+              <li>
+                <div class="section-txt">
+                  <h2>A Gift Of Scent</h2>
+                  <h3>향을 전하는 방식</h3>
+                  <p>정해진 답은 없습니다. 다만, 향을 고르는 시간과<br>전달되는 순간까지 정성스럽게 준비합니다.<br>르라보의 향은 그렇게 선물이 됩니다.</p>
+                  <div class="btn_explore"><a href="#">explore</a></div>
+                </div>
+              </li>
+              <li>
+                <video class="video5" src="img/section5_video.mp4" autoplay muted loop playsinline></video>
+
+                <button class="play" type="button">
+                  <span class="icon play-icon">▶</span>
+                  <span class="icon pause-icon">❚❚</span>
+                </button>
+              </li>
+            </ul>
+          </div><!--.inner-->
+        </div><!--#section5-->
+
+        <div id="section6">
+          <div class="section-txt">
+            <h2>At Your Service</h2>
+            <p>도움이 필요할 때, 우리는 그 자리에 있습니다.</p>
+          </div>
+
+          <ul>
+            <li>
+              <img src="img/icon_global.svg" alt="이미지" class="section5-video">
+              <p><a href="#">글로벌</a></p>
+            </li>
+            <li>
+              <img src="img/icon_store.svg" alt="이미지">
+              <p><a href="#">매장 안내</a></p>
+            </li>
+            <li>
+              <img src="img/icon_listen.svg" alt="이미지">
+              <p><a href="#">고객 지원</a></p>
+            </li>
+            <li>
+              <img src="img/icon_shipping.svg" alt="이미지">
+              <p><a href="#">빠른 배송</a></p>
+            </li>
+            <li>
+              <img src="img/icon_wrapping.svg" alt="이미지">
+              <p><a href="#">선물 포장</a></p>
+            </li>
+          </ul>
+        </div><!--#section6-->
       </main>
 
       <footer>
-        <div class="inner">
-          <div class="footer-left">
-            <img src="img/footer_logo.png" alt="로고이미지" class="f-logo">
-            <div class="footer-nav">
-              <ul>
-                <li><a href="#">회사소개</a></li>
-                <li><a href="#">제휴안내</a></li>
-                <li><a href="#">회원이용약관</a></li>
-                <li><a href="#">개인정보처리방침</a></li>
-                <li><a href="#">자동차 대여약관</a></li>
-              </ul>
-            </div><!--.footer-nav-->
+        <div class="f-top">
+          <div class="inner">
+            <ul class="footer-nav">
+              <li>
+                <span>About Le Labo </span>
+                <p><a href="#">르라로 소개</a></p>
+                <p><a href="#">프래그런스</a></p>
+                <p><a href="#">홈 & 바디</a></p>
+                <p><a href="#">디스커버리</a></p>
+                <p><a href="#">기프트</a></p>
+              </li>
+              <li>
+                <span>Info</span>
+                <p><a href="#">개인정보처리방침</a></p>
+                <p><a href="#">문의</a></p>
+                <p><a href="#">이용약관</a></p>
+                <p><a href="#">공식 판매처 안내</a></p>
+                <p><a href="#">자주 묻는 질문들</a></p>
+                <p><a href="#">매장 찾기</a></p>
+              </li>
+              <li>
+                <span>Shipping</span>
+                <p><a href="#">배송 조회</a></p>
+                <p><a href="#">배송 및 반품</a></p>
+              </li>
+            </ul>
 
             <address>
-              <p>(주) 투어스태프 &nbsp; 대표 : 김남진 &nbsp; 대표번호 : 051-740-4080</p>
-              <p>주소 : 부산광역시 해운대구 APEC로 30 108호 &nbsp; 사업자 등록번호 : 110-87-01893</p>
-              <p>통신판매업 신고번호 : 2021-부산해운대-0918 &nbsp; 개인정보관리책임자 : 김승휘</p>
+              <p>이엘씨에이한국(유) 대표: Jean-Alexandre Havard, 서울시 강남구 강남대로 382 (역삼동) 메리츠타워, 06232</p>
+              <p>사업자등록번호: 211-81-71889</p>
+              <p>통신판매업신고번호: 강남-15737호</p>
+              <p>르 라보 홈페이지 구매 관련 문의: 1544-1345 conciergekr@lelabofragrances.com</p>
+              <p>호스팅제공자: Amazon Web Services</p>
+              <p>&copy; Le Labo</p>
             </address>
 
-            <div class="copyright">
-              COPYRIGHT &copy; 2021 TOURZY CORP. ALL RIGHTS RESERVED.
-            </div>
-          </div><!--.footer-left-->
-
-          <div class="footer-right">
-            <img src="img/app-wrap.png" alt="이미지">
-            <p>언제 어디서든<br>모바일로<br>쉽게 이용하세요</p>
+            <div class="help">
+              <h4>Here to help, always</h4>
+              <p>향을 고르는 순간부터 제품이 손에 닿는 마지막까지.<br>모든 과정에서 차분하고 정성스럽게 안내합니다.</p>
+              <div class="btn_more"><a href="#">자세히 보기</a></div>
+            </div><!--.help-->
+          </div><!--.inner-->
+        </div><!--.f-top-->
+        <div class="f-bottom">
+          <div class="inner">
             <ul>
-              <li><a href="#">
-                <img src="img/apple.png" alt="애플스토어">
-              </a></li>
-              <li><a href="#">
-                <img src="img/google.png" alt="구글플레이">
-              </a></li>
+              <li>
+                <img src="img/icon_nation.svg" alt="국가">
+                <p>대한민국</p>
+              </li>
+              <li>
+                <img src="img/icon_insta.svg" alt="인스타">
+                <img src="img/icon_certified.svg" alt="저작권">
+              </li>
             </ul>
-          </div><!--.footer-right-->
-        </div><!--.inner-->
-      </footer>
-
-      <div class="icon_fixed">
-        <ul>
-          <li class="chat_icon"><img src="img/icon_chat.png" alt="이미지"></li>
-          <li><a href="#"><img src="img/icon_gotop.png" alt="이미지"></a></li>
-        </ul>
-      </div>
-      
-      <div class="chat_fixed">
-        <img src="img/chat.png" alt="채팅팝업창">
-         <div class="close">
-          <img src="img/chat_close.png" alt="닫기">
-         </div>
-
-         <ul class="c_button">
-          <li>
-            <a href="#">이용시간</a>
-          </li>
-          <li>
-            <a href="#">이용방법</a>
-          </li>
-          <li>
-            <a href="#">요금</a>
-          </li>
-          <li>
-            <a href="#">카카오톡 채팅상담</a>
-          </li>
-         </ul>
-
-         <div class="send">
-         <fieldset>
-          <legend>검색영역</legend>
-
-          <div>
-            <input type="text" placeholder="메세지를 입력해주세요 !">
           </div>
-         </fieldset>
-         <button type="button" class="chat_send">검색</button>
-         </div><!--.send-->
-      </div><!--chat_fixed-->
+        </div>
+      </footer>
+      <div class="ask"><a href="#">
+          <img src="img/icon_ask.svg" alt="고객센터">
+        </a></div>
+
+      <div class="ask-wrap">
+        <div class="top-bar">
+          <img src="img/sub/ask_close.png" alt="닫기" class="ask-close">
+        </div>
+        <img src="img/sub/ask_logo.png" alt="로고" class="ask-logo">
+        <img src="img/sub/ask.png" alt="사진" class="ask-img">
+        <div class="ask-txt">
+          <span>Here to help, always.</span>
+          <p>제품, 향, 매장에 대한 문의까지 우리의 컨설턴트가 도와드립니다.</p>
+          <div class="ask-button">
+            상담하기
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="gotop"><a href="index.html">
+          <img src="img/icon_gotop.svg" alt="위로가기">
+        </a></div>
+
+
+
+
+
 
     </form>
   </div><!--#wrap-->
-</body> 
+</body>
+
 </html>

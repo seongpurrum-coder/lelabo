@@ -1,20 +1,39 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'SBAggro';
-    src: url('https://cdn.jsdelivr.net/gh/fontbee/font@main/SANDBOX/SBAggroL.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'AMI R';
+  src:
+    url(../fonts/Ami\ R\ Regular.ttf) format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bell Gothic';
+  src:
+    url('../fonts/ufonts.com_bell-gothic-light.ttf R\ Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'SBAggro';
-    src: url('https://cdn.jsdelivr.net/gh/fontbee/font@main/SANDBOX/SBAggroM.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'Bell Gothic';
+  src:
+    url('../fonts/ufonts.com_bell-gothic-bold.ttf R\ Regular.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'SBAggro';
-    src: url('https://cdn.jsdelivr.net/gh/fontbee/font@main/SANDBOX/SBAggroB.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Bell Gothic';
+  src:
+    url('../fonts/ufonts.com_bell-gothic-black.ttf R\ Regular.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
 }
+@font-face {
+  font-family: 'JMH Typerwriter';
+  src:
+    url('../fonts/JMH\ Typewriter.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+

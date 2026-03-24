@@ -1,37 +1,50 @@
 @charset "utf-8";
 
-html{
+html {
   font-size: 10px;
-  overflow-x: hidden;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-a{
-  text-decoration: none;
-  color: #000;
-}
-ul, ol{
-  list-style: none;
-}
-table{
+
+table {
   border-collapse: collapse;
   width: 100%;
 }
-address, caption, em{
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+address,
+em {
   font-style: normal;
 }
-caption, legend, hr{
+
+caption,
+legend {
   display: none;
 }
-input, select, fieldset, textarea{
+
+select,
+input,
+fieldset,
+button {
   border: 0;
   outline: none;
   vertical-align: top;
 }
-img{
+
+img {
   vertical-align: top;
   border: 0;
 }
