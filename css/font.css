@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'AMI R';
   src:
-    url(../fonts/Ami\ R\ Regular.ttf) format('ttf');
+    url(../fonts/Ami-R-Regular.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -11,28 +11,28 @@
 @font-face {
   font-family: 'Bell Gothic';
   src:
-    url('../fonts/ufonts.com_bell-gothic-light.ttf R\ Regular.ttf') format('ttf');
+    url(../fonts/ufonts.com_bell-gothic-light.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bell Gothic';
   src:
-    url('../fonts/ufonts.com_bell-gothic-bold.ttf R\ Regular.ttf') format('ttf');
+    url(../fonts/ufonts.com_bell-gothic-bold.woff) format('woff');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bell Gothic';
   src:
-    url('../fonts/ufonts.com_bell-gothic-black.ttf R\ Regular.ttf') format('ttf');
+    url(../fonts/ufonts.com_bell-gothic-black.woff) format('woff');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'JMH Typerwriter';
   src:
-    url('../fonts/JMH\ Typewriter.ttf') format('ttf');
+    url(../fonts/JMH-Typewriter.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
