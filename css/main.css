@@ -477,7 +477,7 @@ main {
 }
 
 @media(max-width:450) {
-  .section3-bg{
+  .section3-bg {
     padding: 75px 0 0 50px;
   }
 }
@@ -601,6 +601,10 @@ main {
 
   #section4 ul li {
     height: 380px;
+  }
+
+  #section4 .section4-tit a {
+    font-size: 1.5rem;
   }
 }
 
