@@ -129,7 +129,7 @@ header nav .gnb>li:hover>a {
 header nav .gnb>li>a {
   font-family: var(--sub-font3);
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #454545;
 }
 
@@ -532,7 +532,7 @@ footer .f-top ul {
 footer .f-top ul span {
   display: block;
   font-family: var(--sub-font3);
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
   font-size: 2.6rem;
   padding-bottom: 30px;
@@ -566,7 +566,7 @@ footer .help {
 
 footer .help h4 {
   font-family: var(--sub-font3);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 5rem;
   color: #fff;
   padding-bottom: 29px;
