@@ -480,7 +480,7 @@ input::placeholder {
 .depth2.d2 .classic li p {
   font-family: var(--sub-font3);
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .depth2.d2 .classic li p span {
@@ -895,7 +895,7 @@ footer .f-bottom ul li p {
   font-size: 20px;
   display: block;
   font-family: var(--sub-font3);
-  font-weight: 600;
+  font-weight: 700;
   padding-bottom: 7px;
 }
 .ask-txt p{
